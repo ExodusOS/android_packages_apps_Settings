@@ -93,7 +93,6 @@
 		<!-- Signal icon style -->
 		<Preference
             android:key="android.theme.customization.signal_icon"
-            android:icon="@drawable/ic_signal"
             android:title="@string/theme_customization_signal_icon_title"
             android:summary="@string/theme_customization_signal_icon_summary"
             android:fragment="com.exodus.settings.fragments.ui.SignalIcons"/>
@@ -101,7 +100,6 @@
        <!-- Wifi icon style -->
        <Preference
             android:key="android.theme.customization.wifi_icon"
-            android:icon="@drawable/ic_wifi"
             android:title="@string/theme_customization_wifi_icon_title"
             android:summary="@string/theme_customization_wifi_icon_summary"
             android:fragment="com.exodus.settings.fragments.ui.WifiIcons"/>
