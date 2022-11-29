@@ -34,6 +34,12 @@
    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
    
+   <!-- Signal and WiFi icon style -->
+   <string name="theme_customization_signal_icon_title">Signal icon style</string>
+   <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
+   <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
+   <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
+   
    <!-- App details: open play store link if app is user installed -->
    <string name="app_play_store">Google Play</string>
 
