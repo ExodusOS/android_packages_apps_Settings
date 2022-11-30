@@ -243,5 +243,10 @@
             android:title="@string/network_traffic_title"
             android:summary="@string/network_traffic_summary"
             android:fragment="com.android.settings.custom.NetworkTrafficSettings"/>
+
+        <Preference
+            android:key="exodus_customizations"
+            android:title="@string/exodus_customization_title"
+            android:fragment="com.exodus.settings.fragments.ExodusCustomizations" />
     </PreferenceCategory>
 </PreferenceScreen>

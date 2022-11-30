@@ -51,6 +51,10 @@
     <string name="network_traffic_autohide_title">Hide network traffic is inactive</string>
     <string name="network_traffic_autohide_summary">Hide when network traffic is below 1KB/s</string>
 
+    <!-- Customization category -->
+    <string name="exodus_customization_title">ExodusOS Customizations</string>
+    <string name="statusbar_category_title">Statusbar Customizations</string>
+
    <string name="exodus_title">About ExodusOS</string>
   
    <string name="others_title">Others</string>
