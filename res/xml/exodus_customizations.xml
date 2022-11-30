@@ -42,4 +42,15 @@
             android:fragment="com.exodus.settings.fragments.ui.WifiIcons"/>
 
     </PreferenceCategory>
+    <PreferenceCategory
+        android:key="lockscreen_category"
+        android:title="@string/lockscreen_category_title">
+
+           <com.exodus.support.preferences.SystemSettingSwitchPreference
+           android:key="enable_ripple_effect"
+           android:title="@string/enable_fingerprint_ripple_effect_title"
+           android:summary="@string/enable_fingerprint_ripple_effect_summary"
+           android:defaultValue="true" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

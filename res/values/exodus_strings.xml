@@ -54,9 +54,14 @@
      <!-- IconPack icon style -->
      <string name="theme_customization_icon_pack_title">Icon pack</string>
 
+     <!-- Ripple Effect on lockscreen -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock</string>
+    
     <!-- Customization category -->
     <string name="exodus_customization_title">ExodusOS Customizations</string>
     <string name="statusbar_category_title">Statusbar Customizations</string>
+    <string name="lockscreen_category_title">Lockscreen Customizations</string>
 
    <string name="exodus_title">About ExodusOS</string>
   

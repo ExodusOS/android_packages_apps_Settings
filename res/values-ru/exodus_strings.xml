@@ -29,8 +29,13 @@
     <!-- IconPack icon style -->
      <string name="theme_customization_icon_pack_title">Набор иконок</string>
 
+     <!-- Ripple Effect on lockscreen -->
+    <string name="enable_fingerprint_ripple_effect_title">Эффект пульсации</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Показывать эффект пульсации при разблокировке отпечатком пальца</string>
+
     <!-- Customization category -->
     <string name="exodus_customization_title">Настройки ExodusOS</string>
     <string name="statusbar_category_title">Строка состояния</string>
+    <string name="lockscreen_category_title">Экран блокировки</string>
 
 </resources>
