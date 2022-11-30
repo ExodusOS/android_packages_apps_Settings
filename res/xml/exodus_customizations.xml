@@ -23,5 +23,11 @@
         android:key="statusbar_category"
         android:title="@string/statusbar_category_title">
 
+    <Preference
+            android:key="network_traffic_settings"
+            android:title="@string/network_traffic_title"
+            android:summary="@string/network_traffic_summary"
+            android:fragment="com.android.settings.custom.NetworkTrafficSettings"/>
+
     </PreferenceCategory>
 </PreferenceScreen>
