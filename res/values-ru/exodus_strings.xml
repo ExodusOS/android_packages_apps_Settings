@@ -20,6 +20,9 @@
     <string name="network_traffic_autohide_title">Скрывать "Сетевой трафик" когда неактивно</string>
     <string name="network_traffic_autohide_summary">Скрывать, когда "Сетевой трафик" ниже 1 KB/s</string>
 
+    <!-- IconPack icon style -->
+     <string name="theme_customization_icon_pack_title">Набор иконок</string>
+
     <!-- Customization category -->
     <string name="exodus_customization_title">Настройки ExodusOS</string>
     <string name="statusbar_category_title">Строка состояния</string>

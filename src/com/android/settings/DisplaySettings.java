@@ -94,6 +94,8 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.adaptive_icon_shape"));
         return controllers;
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.icon_pack"));
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
