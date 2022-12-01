@@ -230,6 +230,6 @@
         <Preference
             android:key="exodus_customizations"
             android:title="@string/exodus_customization_title"
-            android:fragment="com.exodus.settings.fragments.ExodusCustomizations" />
+            android:fragment="com.android.settings.custom.ExodusCustomizations" />
     </PreferenceCategory>
 </PreferenceScreen>

@@ -14,11 +14,11 @@
 
    <!-- Network traffic -->
     <string name="network_traffic_title">Cетевой трафик</string>
-    <string name="network_traffic_summary">Включить или отключить "Сетевой трафик"</string>
-    <string name="network_traffic_state_title">Включить "Сетевой трафик"</string>
+    <string name="network_traffic_summary">Включить/Выключить</string>
+    <string name="network_traffic_state_title">Включить сетевой трафик"</string>
     <string name="network_options_title">Параметры</string>
-    <string name="network_traffic_autohide_title">Скрывать "Сетевой трафик" когда неактивно</string>
-    <string name="network_traffic_autohide_summary">Скрывать, когда "Сетевой трафик" ниже 1 KB/s</string>
+    <string name="network_traffic_autohide_title">Скрывать сетевой когда неактивно</string>
+    <string name="network_traffic_autohide_summary">Скрывать, когда сетевой трафик ниже 1 KB/s</string>
 
     <!-- Signal and WiFi icon style -->
     <string name="theme_customization_signal_icon_title">Стиль значка сигнала</string>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.exodus.settings.fragments;
+package com.android.settings.custom;
 
 import android.os.Bundle;
 import com.android.settings.SettingsPreferenceFragment;
