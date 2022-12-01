@@ -29,6 +29,10 @@
     <!-- IconPack icon style -->
      <string name="theme_customization_icon_pack_title">Набор иконок</string>
 
+     <!-- Clock chip -->
+     <string name="status_bar_clock_bg">Фон под часами</string>
+     <string name="status_bar_show_clock_bg">Показывать фон под часами акцента</string>
+
      <!-- Ripple Effect on lockscreen -->
     <string name="enable_fingerprint_ripple_effect_title">Эффект пульсации</string>
     <string name="enable_fingerprint_ripple_effect_summary">Показывать эффект пульсации при разблокировке отпечатком пальца</string>
@@ -37,5 +41,6 @@
     <string name="exodus_customization_title">Настройки ExodusOS</string>
     <string name="statusbar_category_title">Строка состояния</string>
     <string name="lockscreen_category_title">Экран блокировки</string>
+    <string name="clock_category_title">Часы</string>
 
 </resources>
