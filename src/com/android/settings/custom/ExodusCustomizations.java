@@ -20,6 +20,8 @@ import android.os.Bundle;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 
+import com.android.internal.logging.nano.MetricsProto;
+
 public class ExodusCustomizations extends SettingsPreferenceFragment {
 
     private static final String TAG = "Exodus Customizations";
@@ -32,6 +34,6 @@ public class ExodusCustomizations extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return -1;
+        return MetricsProto.MetricsEvent.EXODUS;
     }
 }
