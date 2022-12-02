@@ -41,6 +41,18 @@
             android:summary="@string/theme_customization_wifi_icon_summary"
             android:fragment="com.android.settings.custom.WifiIcons"/>
 
+            <com.exodus.support.preferences.SystemSettingSeekBarPreference
+            android:key="statusbar_left_padding"
+            android:title="@string/statusbar_left_padding"
+            android:max="100"
+            android:min="-5"/>
+
+            <com.exodus.support.preferences.SystemSettingSeekBarPreference
+            android:key="statusbar_right_padding"
+            android:title="@string/statusbar_right_padding"
+            android:max="100"
+            android:min="-5"/>
+
     </PreferenceCategory>
     <PreferenceCategory
         android:key="qs_layout_category"

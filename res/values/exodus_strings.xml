@@ -40,6 +40,10 @@
    <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
    <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
 
+    <!-- Status bar padding -->
+    <string name="statusbar_left_padding">Left padding</string>
+    <string name="statusbar_right_padding">Right padding</string>
+
    <!-- QS tiles layout  -->
     <string name="qs_layout_category_title">Tiles layout</string>
     <string name="qs_tile_label_hide_title">Hide label</string>
