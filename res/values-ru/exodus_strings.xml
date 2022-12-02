@@ -35,6 +35,10 @@
     <string name="qs_columns_portrait_title">Колонки (Вертикальная ориентация)</string>
     <string name="qs_columns_landscape_title">Колонки (Горизонтальная ориентация)</string>
 
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Игнорировать флаги безопасности в приложениях</string>
+    <string name="ignore_window_secure_summary">Убирает ограничения скриншотов и записей для всех приложений, когда они заменяются черными областями в записях. Это может быть удобным в некоторых случаях, но может привести к утечке конфиденциальной информации. После изменения этого переключателя может потребоваться перезапустить приложения, чтобы изменения вступили в силу</string>
+
     <!-- IconPack icon style -->
      <string name="theme_customization_icon_pack_title">Набор иконок</string>
 
@@ -51,5 +55,6 @@
     <string name="statusbar_category_title">Строка состояния</string>
     <string name="lockscreen_category_title">Экран блокировки</string>
     <string name="clock_category_title">Часы</string>
+    <string name="other_category_title">Другое</string>
 
 </resources>
