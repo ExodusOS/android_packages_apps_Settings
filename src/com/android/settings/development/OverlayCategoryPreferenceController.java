@@ -51,7 +51,6 @@ import java.util.List;
 public class OverlayCategoryPreferenceController extends DeveloperOptionsPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
     private static final String TAG = "OverlayCategoryPC";
-    private static final String ICON_PACK_KEY = "android.theme.customization.icon_pack";
 
     @VisibleForTesting
     static final String PACKAGE_DEVICE_DEFAULT = "package_device_default";
@@ -59,7 +58,6 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
             Comparator.comparing(OverlayInfo::getPackageName);
     private final IOverlayManager mOverlayManager;
     private final boolean mAvailable;
-    private final boolean mIsIconPack;
     private final String mCategory;
     private final PackageManager mPackageManager;
     private final String mDeviceDefaultLabel;
@@ -75,7 +73,6 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         mCategory = category;
         mAvailable = overlayManager != null && !getOverlayInfos().isEmpty();
         mDeviceDefaultLabel = mContext.getString(R.string.overlay_option_device_default);
-        mIsIconPack = ICON_PACK_KEY.equals(category);
     }
 
     public OverlayCategoryPreferenceController(Context context, String category) {
