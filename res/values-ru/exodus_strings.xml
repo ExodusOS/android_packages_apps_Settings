@@ -42,6 +42,10 @@
     <!-- IconPack icon style -->
      <string name="theme_customization_icon_pack_title">Набор иконок</string>
 
+     <!-- Quick unlock -->
+     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+     <string name="unlock_quick_unlock_control_summary">Автоматически разблокируется при вводе правильного PIN-кода/пароля</string>
+
      <!-- Clock chip -->
      <string name="status_bar_clock_bg">Фон под часами</string>
      <string name="status_bar_show_clock_bg">Показывать фон под часами акцента</string>

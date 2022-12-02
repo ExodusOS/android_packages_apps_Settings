@@ -96,6 +96,11 @@
            android:summary="@string/enable_fingerprint_ripple_effect_summary"
            android:defaultValue="true" />
 
+        <com.exodus.support.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_quick_unlock_control"
+        android:title="@string/unlock_quick_unlock_control_title"
+        android:summary="@string/unlock_quick_unlock_control_summary" />
+
     </PreferenceCategory>
     <PreferenceCategory
         android:key="other_category"
