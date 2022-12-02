@@ -43,6 +43,12 @@
     <string name="statusbar_left_padding">Левый отступ строки состояния</string>
     <string name="statusbar_right_padding">Правый отступ строки состояния</string>
 
+    <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_summary">Установить стиль шрифта системы</string>
+    <string name="theme_customization_icon_pack_title">Набор иконок</string>
+    <string name="theme_customization_icon_pack_summary">Установить пользовательский пакет стиля иконок</string>
+    <string name="theme_customization_icon_shape_summary">Установить системный стиль формы иконок</string>
+
      <!-- Quick unlock -->
      <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
      <string name="unlock_quick_unlock_control_summary">Автоматически разблокируется при вводе правильного PIN-кода/пароля</string>
@@ -61,5 +67,6 @@
     <string name="lockscreen_category_title">Экран блокировки</string>
     <string name="clock_category_title">Часы</string>
     <string name="other_category_title">Другое</string>
+    <string name="themed_category_title">Оформлениее</string>
 
 </resources>

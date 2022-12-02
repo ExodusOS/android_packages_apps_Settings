@@ -44,6 +44,12 @@
     <string name="statusbar_left_padding">Left padding</string>
     <string name="statusbar_right_padding">Right padding</string>
 
+    <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_summary">Set system font style</string>
+    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
+    <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
+
    <!-- QS tiles layout  -->
     <string name="qs_layout_category_title">Tiles layout</string>
     <string name="qs_tile_label_hide_title">Hide label</string>
@@ -82,6 +88,7 @@
     <string name="lockscreen_category_title">Lockscreen Customizations</string>
     <string name="clock_category_title">Clock</string>
     <string name="other_category_title">Other</string>
+    <string name="themed_category_title">Themed</string>
 
    <string name="exodus_title">About ExodusOS</string>
   

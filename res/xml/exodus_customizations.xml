@@ -29,18 +29,6 @@
             android:summary="@string/network_traffic_summary"
             android:fragment="com.android.settings.custom.NetworkTrafficSettings"/>
 
-        <Preference
-            android:key="android.theme.customization.signal_icon"
-            android:title="@string/theme_customization_signal_icon_title"
-            android:summary="@string/theme_customization_signal_icon_summary"
-            android:fragment="com.android.settings.custom.SignalIcons"/>
-
-       <Preference
-            android:key="android.theme.customization.wifi_icon"
-            android:title="@string/theme_customization_wifi_icon_title"
-            android:summary="@string/theme_customization_wifi_icon_summary"
-            android:fragment="com.android.settings.custom.WifiIcons"/>
-
             <com.exodus.support.preferences.SystemSettingSeekBarPreference
             android:key="statusbar_left_padding"
             android:title="@string/statusbar_left_padding"
@@ -113,6 +101,41 @@
         android:title="@string/unlock_quick_unlock_control_title"
         android:summary="@string/unlock_quick_unlock_control_summary" />
 
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="themed_category"
+        android:title="@string/themed_category_title">
+
+    <Preference
+        android:key="android.theme.customization.fonts"
+        android:title="@string/theme_customization_font_title"
+        android:summary="@string/theme_customization_font_summary"
+        android:fragment="com.android.settings.custom.FontsPicker"/>
+
+    <Preference
+        android:key="android.theme.customization.icon_pack"
+        android:title="@string/theme_customization_icon_pack_title"
+        android:summary="@string/theme_customization_icon_pack_summary"
+        android:fragment="com.android.settings.custom.StatusbarIcons"/>
+
+    <Preference
+        android:key="android.theme.customization.adaptive_icon_shape"
+        android:title="@string/theme_customization_icon_shape_title"
+        android:summary="@string/theme_customization_icon_shape_summary"
+        android:fragment="com.android.settings.custom.IconShapes"/>
+
+    <Preference
+        android:key="android.theme.customization.signal_icon"
+        android:title="@string/theme_customization_signal_icon_title"
+        android:summary="@string/theme_customization_signal_icon_summary"
+        android:fragment="com.android.settings.custom.SignalIcons"/>
+
+       <Preference
+        android:key="android.theme.customization.wifi_icon"
+        android:title="@string/theme_customization_wifi_icon_title"
+        android:summary="@string/theme_customization_wifi_icon_summary"
+        android:fragment="com.android.settings.custom.WifiIcons"/>
+        
     </PreferenceCategory>
     <PreferenceCategory
         android:key="other_category"
