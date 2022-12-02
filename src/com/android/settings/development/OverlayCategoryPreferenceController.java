@@ -50,7 +50,6 @@ import java.util.List;
 public class OverlayCategoryPreferenceController extends DeveloperOptionsPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
     private static final String TAG = "OverlayCategoryPC";
-
     @VisibleForTesting
     static final String PACKAGE_DEVICE_DEFAULT = "package_device_default";
     private static final String OVERLAY_TARGET_PACKAGE = "android";
@@ -60,8 +59,6 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
     private final boolean mAvailable;
     private final String mCategory;
     private final PackageManager mPackageManager;
-    private final String mDeviceDefaultLabel;
-    private final String mDeviceDefaultLabel;
 
     private ListPreference mPreference;
 
@@ -73,7 +70,6 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         mPackageManager = packageManager;
         mCategory = category;
         mAvailable = overlayManager != null && !getOverlayInfos().isEmpty();
-        mDeviceDefaultLabel = mContext.getString(R.string.overlay_option_device_default);
     }
 
     public OverlayCategoryPreferenceController(Context context, String category) {
@@ -130,7 +126,7 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
                         return mOverlayManager.setEnabledExclusiveInCategory(packageName,
                                 USER_SYSTEM);
                     }
-                    } catch (SecurityException | IllegalStateException | RemoteException e) {
+                } catch (SecurityException | IllegalStateException | RemoteException e) {
                     Log.w(TAG, "Error enabling overlay.", e);
                     return false;
                 }
@@ -207,4 +203,5 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         setOverlay(PACKAGE_DEVICE_DEFAULT);
         updateState(mPreference);
     }
+
 }
