@@ -51,7 +51,6 @@ import java.util.List;
 public class OverlayCategoryPreferenceController extends DeveloperOptionsPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
     private static final String TAG = "OverlayCategoryPC";
-    private static final String ADAPTIVE_ICON_SHAPE_KEY = "android.theme.customization.adaptive_icon_shape";
     private static final String ICON_PACK_KEY = "android.theme.customization.icon_pack";
 
     @VisibleForTesting
@@ -60,7 +59,6 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
             Comparator.comparing(OverlayInfo::getPackageName);
     private final IOverlayManager mOverlayManager;
     private final boolean mAvailable;
-    private final boolean mIsAdaptiveIconShape;
     private final boolean mIsIconPack;
     private final String mCategory;
     private final PackageManager mPackageManager;
@@ -77,7 +75,6 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         mCategory = category;
         mAvailable = overlayManager != null && !getOverlayInfos().isEmpty();
         mDeviceDefaultLabel = mContext.getString(R.string.overlay_option_device_default);
-        mIsAdaptiveIconShape = ADAPTIVE_ICON_SHAPE_KEY.equals(category);
         mIsIconPack = ICON_PACK_KEY.equals(category);
     }
 
