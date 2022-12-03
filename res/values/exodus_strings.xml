@@ -84,11 +84,10 @@
 
      <!-- Exodus Customisation on homepage -->
     <string name="exodus_customisation_title">Exodus Customisation</string>
-    <string name="exodus_customisation_summary">Keep the flow on!</string>
+    <string name="exodus_customisation_summary">Welcome to the world of ExodusOS settings!</string>
     <string name="menu_key_exodus">top_level_exodus_customisation</string>
     
     <!-- Customization category -->
-    <string name="exodus_customization_title">ExodusOS Customizations</string>
     <string name="statusbar_category_title">Statusbar Customizations</string>
     <string name="lockscreen_category_title">Lockscreen Customizations</string>
     <string name="clock_category_title">Clock</string>

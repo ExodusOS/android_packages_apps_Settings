@@ -23,5 +23,128 @@
         android:key="statusbar_category"
         android:title="@string/statusbar_category_title">
 
+    <Preference
+            android:key="network_traffic_settings"
+            android:title="@string/network_traffic_title"
+            android:summary="@string/network_traffic_summary"
+            android:fragment="com.android.settings.custom.NetworkTrafficSettings"/>
+
+            <com.exodus.support.preferences.SystemSettingSeekBarPreference
+            android:key="statusbar_left_padding"
+            android:title="@string/statusbar_left_padding"
+            android:max="100"
+            android:min="-5"/>
+
+            <com.exodus.support.preferences.SystemSettingSeekBarPreference
+            android:key="statusbar_right_padding"
+            android:title="@string/statusbar_right_padding"
+            android:max="100"
+            android:min="-5"/>
+
     </PreferenceCategory>
+    <PreferenceCategory
+        android:key="qs_layout_category"
+        android:title="@string/qs_layout_category_title">
+
+        <com.exodus.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_label_hide"
+            android:title="@string/qs_tile_label_hide_title"
+            android:summary="@string/qs_tile_label_hide_summary"
+            android:defaultValue="false" />
+
+        <com.exodus.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_vertical_layout"
+            android:title="@string/qs_tile_layout_title"
+            android:summary="@string/qs_tile_layout_summary"
+            android:defaultValue="false" />
+
+        <com.exodus.support.preferences.SystemSettingSeekBarPreference
+            android:key="qs_layout_columns"
+            android:title="@string/qs_columns_portrait_title"
+            android:max="5"
+            settings:min="2"
+            settings:interval="1"
+            android:defaultValue="2" />
+
+        <com.exodus.support.preferences.SystemSettingSeekBarPreference
+            android:key="qs_layout_columns_landscape"
+            android:title="@string/qs_columns_landscape_title"
+            android:max="6"
+            settings:min="2"
+            settings:interval="1"
+            android:defaultValue="4" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="clock_category"
+        android:title="@string/clock_category_title">
+
+        <com.exodus.support.preferences.SystemSettingSwitchPreference
+        android:key="statusbar_clock_chip"
+        android:title="@string/status_bar_clock_bg"
+        android:summary="@string/status_bar_show_clock_bg"
+        android:defaultValue="false" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="lockscreen_category"
+        android:title="@string/lockscreen_category_title">
+
+           <com.exodus.support.preferences.SystemSettingSwitchPreference
+           android:key="enable_ripple_effect"
+           android:title="@string/enable_fingerprint_ripple_effect_title"
+           android:summary="@string/enable_fingerprint_ripple_effect_summary"
+           android:defaultValue="true" />
+
+        <com.exodus.support.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_quick_unlock_control"
+        android:title="@string/unlock_quick_unlock_control_title"
+        android:summary="@string/unlock_quick_unlock_control_summary" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="themed_category"
+        android:title="@string/themed_category_title">
+
+    <Preference
+        android:key="android.theme.customization.fonts"
+        android:title="@string/theme_customization_font_title"
+        android:summary="@string/theme_customization_font_summary"
+        android:fragment="com.android.settings.custom.FontsPicker"/>
+
+    <Preference
+        android:key="android.theme.customization.icon_pack"
+        android:title="@string/theme_customization_icon_pack_title"
+        android:summary="@string/theme_customization_icon_pack_summary"
+        android:fragment="com.android.settings.custom.StatusbarIcons"/>
+
+    <Preference
+        android:key="android.theme.customization.adaptive_icon_shape"
+        android:title="@string/theme_customization_icon_shape_title"
+        android:summary="@string/theme_customization_icon_shape_summary"
+        android:fragment="com.android.settings.custom.IconShapes"/>
+
+    <Preference
+        android:key="android.theme.customization.signal_icon"
+        android:title="@string/theme_customization_signal_icon_title"
+        android:summary="@string/theme_customization_signal_icon_summary"
+        android:fragment="com.android.settings.custom.SignalIcons"/>
+
+    <Preference
+        android:key="android.theme.customization.wifi_icon"
+        android:title="@string/theme_customization_wifi_icon_title"
+        android:summary="@string/theme_customization_wifi_icon_summary"
+        android:fragment="com.android.settings.custom.WifiIcons"/>
+        
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="other_category"
+        android:title="@string/other_category_title">
+
+        <com.exodus.support.preferences.SecureSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false"/>
+   </PreferenceCategory>
 </PreferenceScreen>
