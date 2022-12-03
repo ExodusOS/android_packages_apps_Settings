@@ -81,6 +81,11 @@
      <!-- Ripple Effect on lockscreen -->
     <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock</string>
+
+     <!-- Exodus Customisation on homepage -->
+    <string name="exodus_customisation_title">Exodus Customisation</string>
+    <string name="exodus_customisation_summary">Keep the flow on!</string>
+    <string name="menu_key_exodus">top_level_exodus_customisation</string>
     
     <!-- Customization category -->
     <string name="exodus_customization_title">ExodusOS Customizations</string>
