@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 ExodusOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="exodus_version">Версія</string>
+	<string name="exodus_codename">Кодова назва</string>
+	<!-- Exodus maintainer -->
+    <string name="exodus_maintainer">Супроводжувач</string>
+	
+	<!-- Hardware info -->
+    <string name="platform_revision">Платформа</string>
+    <string name="total_ram">Загальна оперативна пам'ять</string>
+	
+	<!-- Notification log -->
+    <string name="notification_log_summary">Показати журнал історії сповіщень</string>
+	 <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+    <string name="duration_less_than_one_minute">Менше 1 хвилини</string> 
+
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s сьогодні</string>
+	
+	<!-- Quick unlock -->
+   <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
+   <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування після введення правильного PIN-коду/паролю</string>
+   
+   <!-- Signal and WiFi icon style -->
+   <string name="theme_customization_signal_icon_title">Стиль значка сигналу</string>
+   <string name="theme_customization_signal_icon_summary">Встановити власний стиль значка сигналу</string>
+   <string name="theme_customization_wifi_icon_title">Стиль значка WiFi</string>
+   <string name="theme_customization_wifi_icon_summary">Встановити власний стиль значка Wi-Fi</string>
+
+    <!-- Status bar padding -->
+    <string name="statusbar_left_padding">Відступ зліва</string>
+    <string name="statusbar_right_padding">Відступ зправа</string>
+
+    <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_summary">Встановити системний стиль шрифту</string>
+    <string name="theme_customization_icon_pack_title">Пакет значків</string>
+    <string name="theme_customization_icon_pack_summary">Установіть власний стиль набору значків</string>
+    <string name="theme_customization_icon_shape_summary">Установити стиль форми значка системи</string>
+
+   <!-- QS tiles layout  -->
+    <string name="qs_layout_category_title">Розкладка плитки</string>
+    <string name="qs_tile_label_hide_title">Приховати мітку</string>
+    <string name="qs_tile_label_hide_summary">Показувати лише піктограму на плитці</string>
+    <string name="qs_tile_layout_title">Вертикальна розкладка</string>
+    <string name="qs_tile_layout_summary">Показувати мітку під значком замість значка</string>
+    <string name="qs_columns_portrait_title">Стовпці (книжна)</string>
+    <string name="qs_columns_landscape_title">Стовпці (альбомна)</string>
+
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ігнорувати прапорці безпеки вікна</string>
+    <string name="ignore_window_secure_summary">Це зніме обмеження на знімки екрана та записи екрана для всіх програм. Зазвичай спеціальні програми замінюються на чорні області в записах. Це може бути зручно в деяких випадках, але може призвести до витоку конфіденційності. Після зміни цього перемикача вам може знадобитися перезапустити програми, щоб зміни набули чинності</string>
+   
+   <!-- App details: open play store link if app is user installed -->
+   <string name="app_play_store">Google Play</string>
+
+   <!-- Network traffic -->
+    <string name="network_traffic_title">Мережевий трафік</string>
+    <string name="network_traffic_summary">Увімкнути або вимкнути мережевий трафік</string>
+    <string name="network_traffic_state_title">Увімкнути «Мережевий трафік»</string>
+    <string name="network_options_title">Опції</string>
+    <string name="network_traffic_autohide_title">Приховати мережевий трафік неактивний</string>
+    <string name="network_traffic_autohide_summary">Приховувати, коли мережевий трафік менше 1КБ/с</string>
+
+     <!-- Clock chip -->
+     <string name="status_bar_clock_bg">Фішка для фону</string>
+     <string name="status_bar_show_clock_bg">Показати фон годинника</string>
+
+     <!-- Ripple Effect on lockscreen -->
+    <string name="enable_fingerprint_ripple_effect_title">Ефект хвилі</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Показувати ефект хвилі під час розблокування</string>
+
+     <!-- Exodus Customisation on homepage -->
+    <string name="exodus_customisation_title">Налаштування Exodus</string>
+    <string name="exodus_customisation_summary">Ласкаво просимо у світ налаштувань ExodusOS!</string>
+    <string name="menu_key_exodus">top_level_exodus_customisation</string>
+    
+    <!-- Customization category -->
+    <string name="statusbar_category_title">Налаштування панелі стану</string>
+    <string name="lockscreen_category_title">Налаштування екрану блокування</string>
+    <string name="clock_category_title">Годинник</string>
+    <string name="other_category_title">Інше</string>
+    <string name="themed_category_title">Тематичні</string>
+
+   <string name="exodus_title">Про ExodusOS</string>
+  
+   <string name="others_title">Інше</string>
+   <string name="exodus_footer">"Прошивка базується на ОС Lineage.\n\nМи зберегли основні функції LOS, але також додали багато нового."</string>
+</resources>
