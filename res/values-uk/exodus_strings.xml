@@ -20,7 +20,7 @@
 	
 	<!-- Hardware info -->
     <string name="platform_revision">Платформа</string>
-    <string name="total_ram">Загальна оперативна пам'ять</string>
+    <string name="total_ram">Загальна оперативна пам\'ять</string>
 	
 	<!-- Notification log -->
     <string name="notification_log_summary">Показати журнал історії сповіщень</string>
