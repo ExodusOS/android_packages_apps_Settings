@@ -15,4 +15,29 @@
     <!-- Exodus Customisation on homepage -->
     <string name="exodus_settings_dashboard_title">Настройки ExodusOS</string>
     <string name="exodus_settings_dashboard_summary">Добро пожаловать в мир настроек ExodusOS!</string>
+
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="exodus_version">Версия</string>
+    <string name="exodus_codename">Кодовое имя</string>
+
+    <!-- Exodus maintainer -->
+    <string name="exodus_maintainer">Сопровождающий</string>
+     
+    <!-- Hardware info -->
+    <string name="platform_revision">Платформа</string>
+    <string name="total_ram">Общая оперативная память</string>
+     
+    <!-- Notification log -->
+    <string name="notification_log_summary">Показать журнал истории уведомлений</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+    <string name="duration_less_than_one_minute">Менее 1 минуты</string> 
+
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s сегодня</string>
+
+    <!-- ExodusOS -->
+    <string name="exodus_title">Об ExodusOS</string>
+    <string name="others_title">Другое</string>
+    <string name="exodus_footer">"Прошивка основана на LineageOS.\n\nМы сохранили основные функции LOS, но также добавили много нового"</string>
 </resources>
