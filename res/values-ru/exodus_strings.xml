@@ -40,4 +40,7 @@
     <string name="exodus_title">Об ExodusOS</string>
     <string name="others_title">Другое</string>
     <string name="exodus_footer">"Прошивка основана на LineageOS.\n\nМы сохранили основные функции LOS, но также добавили много нового"</string>
+
+    <!-- UI background blur toggle -->
+    <string name="ui_background_blur_summary">Включить размытие фона пользовательского интерфейса</string>
 </resources>

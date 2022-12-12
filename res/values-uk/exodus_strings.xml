@@ -38,4 +38,7 @@
   
    <string name="others_title">Інше</string>
    <string name="exodus_footer">"Прошивка базується на ОС Lineage.\n\nМи зберегли основні функції LOS, але також додали багато нового."</string>
+
+   <!-- UI background blur toggle -->
+   <string name="ui_background_blur_summary">Увімкнути розмиття фону інтерфейсу користувача</string>
 </resources>

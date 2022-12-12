@@ -42,4 +42,7 @@
   
    <string name="others_title">Others</string>
    <string name="exodus_footer">"The firmware is based on Lineage OS.\n\nWe have kept the main features of LOS, but also added a lot of new things."</string>
+
+   <!-- UI background blur toggle -->
+   <string name="ui_background_blur_summary">Enable UI background blur</string>
 </resources>
