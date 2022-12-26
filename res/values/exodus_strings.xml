@@ -48,4 +48,7 @@
 
    <!-- UI background blur toggle -->
    <string name="ui_background_blur_summary">Enable UI background blur</string>
+
+   <!-- Cloudflare DNS Option -->
+   <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
 </resources>
