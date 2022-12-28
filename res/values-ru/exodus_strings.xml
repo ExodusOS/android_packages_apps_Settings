@@ -43,4 +43,8 @@
 
     <!-- UI background blur toggle -->
     <string name="ui_background_blur_summary">Включить размытие фона пользовательского интерфейса</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сбросить статистику</string>
+    <string name="battery_stats_message">Статистика истории заряда батареи будет сброшена</string>
 </resources>
